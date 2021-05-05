@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --main-color: #ffebcd;
+    --second-main-color: #808e9b;
+
+}
+
+body{
+    /* width: 1300px; */
+}
+.header{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    background-color: black;
+    color: var(--second-main-color);
+    position: fixed;
+}
+
+.navbar{
+    width: 25%;
+}
+.navbar-ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+
+    font-size: 1.5rem;
+}
+.main{
+    text-align: center;
+    background-image: url("./img/coding-1853305_1280.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    height: 685px;
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.apresentacao{
+    font-size: 2rem;
+    color: var(--main-color);
+    filter: drop-shadow(10px 10px 10px #1e272e);
+}
