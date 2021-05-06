@@ -48,3 +48,23 @@ body{
     color: var(--main-color);
     filter: drop-shadow(10px 10px 10px #1e272e);
 }
+
+.sobre-mim{
+    width: 50%;
+    text-align: center;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 300px;
+}
+
+.sobre-mim-info h2{
+    font-size: 2em;
+    line-height: 1.5;
+}
+
+.sobre-mim-info p{
+    font-size: 1.5em;
+    line-height: 1.5;
+} 
