@@ -15,9 +15,12 @@ body{
     width: 100%;
     display: flex;
     justify-content: flex-end;
-    background-color: black;
+    opacity: 0.75;
+    font-weight: 900;
     color: var(--second-main-color);
     position: fixed;
+    color: var(--main-color);
+     border-bottom: 1px solid #f0f0f0;
 }
 
 .navbar{
@@ -35,7 +38,6 @@ body{
     background-image: url("./img/coding-1853305_1280.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    
     height: 685px;
 
     display: flex;
@@ -58,7 +60,6 @@ body{
 .sobre-mim-container{
     width: 50%;
     margin-top: 5%;
-    border: 1px solid #f6eacb;
     box-shadow: 10px black;
 }
 .sobre-mim-info h2{
@@ -77,15 +78,45 @@ body{
     margin-top: 10%;
 
     display: flex;
-    justify-content: space-around;
-}
+    justify-content: space-evenly;
 
+}
+.projetos-title{
+    text-align: center;
+    font-size: 3rem;
+    margin-top: 5%;
+}
+/* 
 .projeto{
     width: 400px;
     height: 400px;
+
     border: 1px solid black;
+}  */
+
+.projeto1{
+    width: 400px;
+    /* height: 400px; */
+    background-image:url("./img/projeto1.jpg") ;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+
+}
+.projeto2{
+    width: 400px;
+    height: 550px;
+    background-image:url("./img/projeto2.jpg") ;
+    background-size: contain;
+    background-repeat: no-repeat;    
 }
 
+.projeto3{
+    width: 400px;
+}
+.projeto1, .projeto2{
+    filter: drop-shadow(10px 10px 10px  black);
+}
 .footer{
     width: 100%;
     height: 120px;
